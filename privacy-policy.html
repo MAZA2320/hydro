@@ -67,12 +67,13 @@
 <body>
 <main>
   <h1>Privacy Policy — Water Tracker</h1>
-  <p class="meta">Last updated: June 15, 2026 · <a href="privacy-policy-de.html">Deutsch</a></p>
+  <p class="meta">Last updated: August 16, 2026 · <a href="privacy-policy-de.html">Deutsch</a></p>
 
   <p>
-    Water Tracker (package <code>com.aquatracker.app</code>) is an offline
-    hydration-tracking app. This policy explains what data the app handles,
-    who is responsible for it, and what rights you have.
+    Water Tracker (package <code>com.hydroaquatracker.app</code>) is a
+    hydration-tracking app that works entirely on your device. This policy
+    explains what data the app handles, who is responsible for it, and what
+    rights you have.
   </p>
 
   <h2>Controller</h2>
@@ -84,13 +85,23 @@
 
   <h2>No data collection by the provider</h2>
   <p>
-    The app has no backend server of its own and includes no analytics,
-    advertising, or crash-reporting SDKs, and it does not request the
-    <code>INTERNET</code> permission. The provider therefore never receives
-    your data, and no data leaves your phone.
+    The app has no backend server of its own, requires no user account,
+    includes no analytics, advertising, or crash-reporting SDKs, and does not
+    request the <code>INTERNET</code> permission. The provider therefore never
+    receives your data at any time.
   </p>
   <p>
-    Should a future version introduce any network functionality (e.g. an
+    Your data leaves your device only in cases you trigger yourself, and only
+    to a recipient you choose. There are exactly two such cases, both described
+    in detail below:
+  </p>
+  <ul>
+    <li>the <strong>CSV export</strong>, if and when you share the exported file (see "Data export, import and sharing"); and</li>
+    <li>the <strong>app rating dialog</strong>, if and when you choose to use it (see "App rating dialog (Google Play In-App Review)").</li>
+  </ul>
+  <p>
+    Beyond these two cases, no app data leaves your device. Should a future
+    version introduce any further functionality that transmits data (e.g. an
     optional sync to your own paired devices), this privacy policy will be
     updated accordingly beforehand and published with a new "last updated"
     date.
@@ -103,18 +114,25 @@
     notes app or an offline spreadsheet.
   </p>
   <p>
-    Where you use the app exclusively for personal or household purposes, this
-    processing falls under the household exemption (Art. 2(2)(c) GDPR), and the
-    obligations of the GDPR do not apply to that purely private use. The
-    provider's role is limited to supplying the software that performs this
-    local storage and calculation on your behalf.
+    The provider's role is limited to supplying the software that performs this
+    local storage and calculation on your device and on your behalf. It
+    determines neither the purposes nor the means of any processing of your
+    individual entries, and it has no technical means of accessing them. In the
+    provider's assessment, it is therefore not a controller (Art. 4 No. 7 GDPR)
+    in respect of the content you enter.
   </p>
   <p>
-    To the extent the provider should nonetheless be regarded as a controller
-    (Art. 4 No. 7 GDPR) by virtue of the app's design, it has no obligations
-    beyond supplying the software, as it has no access to the locally processed
-    data at any time; in that case, the basis set out in the "Legal basis"
-    section below applies.
+    In addition, where you use the app exclusively for personal or household
+    purposes, your own processing of your data may fall under the household
+    exemption (Art. 2(2)(c) GDPR). This exemption applies to you as the person
+    processing the data; the provider does not rely on it for its own position.
+  </p>
+  <p>
+    Because the assessment above could be judged differently, the provider sets
+    out in the "Legal basis" section below, in the alternative, the legal bases
+    on which it would rely should it nonetheless be regarded as a controller.
+    Even in that case it has no access to the locally processed data at any
+    time, so it cannot itself act on that data.
   </p>
 
   <h2>Legal basis</h2>
@@ -124,8 +142,9 @@
   </p>
   <ul>
     <li><strong>Provision of the app's core functions</strong> (local storage and calculation of your entries) — Art. 6(1)(b) GDPR (providing the function you requested) and Art. 6(1)(f) GDPR (legitimate interest in a functioning app).</li>
-    <li><strong>Health-related entries</strong> (e.g. weight, height, activity level) — Art. 9(2)(a) GDPR (explicit consent through your voluntary entry of this data).</li>
+    <li><strong>Health-related entries</strong> (weight, height, gender, activity level) — Art. 9(2)(a) GDPR. You enter this data during initial setup so that the app can calculate a suggested daily goal for you. On the screen where you enter it, the app tells you what it is used for and that it stays on your device; by confirming that screen you give your explicit consent to this local processing. You can change these values at any time under Profile, and remove them together with all other app data via "Delete all data" in settings — which withdraws that consent with effect for the future.</li>
     <li><strong>Personalized reminders ("Smart Mode")</strong> — Art. 6(1)(a) GDPR (consent through activation of the feature), withdrawable at any time with effect for the future.</li>
+    <li><strong>App rating dialog (Google Play In-App Review)</strong> — Art. 6(1)(a) GDPR (consent, given by your choosing to use the dialog that is offered to you) and Art. 6(1)(f) GDPR (legitimate interest in feedback on the app). See the dedicated section below.</li>
   </ul>
 
   <h2>What is stored, and where</h2>
@@ -138,9 +157,9 @@
   </p>
   <p>
     Some of this data (e.g. weight, height, activity level, drink log) may be
-    considered health data under Art. 9 GDPR. Because this data is processed
-    exclusively on your device and is never accessible to the provider, no
-    additional obligations under Art. 9 arise for the provider — see "Who is
+    considered health data under Art. 9 GDPR. It is processed exclusively on
+    your device and is never accessible to the provider, so in the provider's
+    assessment no obligations under Art. 9 arise for it — see "Who is
     responsible for your data" above. To the extent such processing should
     nonetheless be attributable to the provider, it relies on your explicit
     consent under Art. 9(2)(a) GDPR (see "Legal basis").
@@ -169,7 +188,7 @@
     settings.
   </p>
 
-  <h2>Data export and sharing</h2>
+  <h2>Data export, import and sharing</h2>
   <p>
     The app lets you export your own drink history as a CSV file so you can
     share or back it up yourself. This export is created locally and only
@@ -179,12 +198,49 @@
     to the data it receives — the provider of Water Tracker has no
     involvement in or control over that transfer.
   </p>
+  <p>
+    You can also import a CSV file back into the app. The app reads only the
+    single file you select in your device's file picker, processes it locally,
+    and stores the resulting entries in the same local database as all your
+    other data. Nothing is uploaded, and the provider receives nothing in this
+    process.
+  </p>
+
+  <h2>App rating dialog (Google Play In-App Review)</h2>
+  <p>
+    After you have reached your daily goal on several consecutive days, the app
+    may offer you Google's standard in-app rating dialog. The dialog itself is
+    displayed and handled entirely by the Google Play Store app on your device,
+    not by Water Tracker.
+  </p>
+  <p>
+    When this dialog is requested and when you use it, Google receives the
+    related data as its own controller — in particular the fact that a rating
+    was requested for this app, your Google Play account, and any rating or
+    review text you choose to submit. Google may publish a review you submit in
+    the Play Store under your Play profile name. Water Tracker does not read
+    your rating, does not receive your review text, and cannot link a review to
+    your app data.
+  </p>
+  <p>
+    The dialog is only ever offered, never forced: you can dismiss it, and no
+    rating is transmitted unless you actively submit one. Because Google Ireland
+    Limited and Google LLC (USA) are involved in operating the Play Store, this
+    can involve a transfer to the USA; Google states that it safeguards such
+    transfers by means of the EU-US Data Privacy Framework and Standard
+    Contractual Clauses. See
+    <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>
+    for details.
+  </p>
 
   <h2>Recipients and international data transfers</h2>
   <p>
     The provider itself does not transfer any data from this app to any
-    recipient or to any third country, because the provider never receives
-    this data in the first place.
+    recipient or to any third country, because the provider never receives this
+    data in the first place. Data reaches a third party only in the cases you
+    trigger yourself, described above: the recipient you choose when sharing a
+    CSV export, and Google in connection with the app rating dialog and with
+    the operation of the Play Store.
   </p>
   <p>
     This privacy policy page itself is hosted on GitHub Pages (GitHub Inc.,
@@ -219,7 +275,7 @@
     <li><strong>Erasure (Art. 17 GDPR)</strong> — delete individual entries, or use "Delete all data" in settings to remove everything.</li>
     <li><strong>Restriction of processing (Art. 18 GDPR)</strong> — because processing happens only locally, you achieve a restriction by disabling the relevant feature or deleting the data.</li>
     <li><strong>Objection (Art. 21 GDPR)</strong> — disable Smart Mode or notifications in settings, or uninstall the app at any time.</li>
-    <li><strong>Withdrawal of consent (Art. 7(3) GDPR)</strong> — any consent you have given (e.g. for Smart Mode) can be withdrawn at any time with effect for the future by disabling the feature in settings.</li>
+    <li><strong>Withdrawal of consent (Art. 7(3) GDPR)</strong> — any consent you have given can be withdrawn at any time with effect for the future: disable Smart Mode in settings, use "Delete all data" to remove your body data, or simply dismiss the rating dialog. Withdrawal does not affect the lawfulness of processing carried out before it.</li>
   </ul>
   <p>
     You also have the right to lodge a complaint with a data protection
